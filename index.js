@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the version control system');
+    res.send('Welcome to our Version Control System.');
 });
 
 app.listen(PORT, () => {
