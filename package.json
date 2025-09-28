@@ -1,0 +1,13 @@
+{
+  "name": "versionskontrolle-im-team",
+  "version": "1.0.0",
+  "description": "Ein System zur Versionierung von Dateien und zur Zusammenarbeit in Teams.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Fehlende Tests' && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
